@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            /* grid-template-columns: auto auto auto; */
+            height: 10px;
+            float: left;
+            grid-template-areas: 
+            'first first second'
+            'third forth fifth'
+            'third sixth fifth'
+            ;
+        }
+        /* .container img {
+            width: 100px;
+        } */
+        .child-1 {grid-area: first;}
+        .child-2 {grid-area: second;}
+        .child-3 {grid-area: third;}
+        .child-4 {grid-area: forth;}
+        .child-5 {grid-area: fifth;}
+        .child-6 {grid-area: sixth;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child-1"><img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697846400&semt=sph" alt=""></div>
+        <div class="child-2"><img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" alt=""></div>
+        <div class="child-3"><img src="https://static.vecteezy.com/system/resources/previews/025/284/015/non_2x/close-up-growing-beautiful-forest-in-glass-ball-and-flying-butterflies-in-nature-outdoors-spring-season-concept-generative-ai-photo.jpg" alt=""></div>
+        <div class="child-4"><img src="https://images.unsplash.com/photo-1618588507085-c79565432917?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwbmF0dXJlfGVufDB8fDB8fHww" alt=""></div>
+        <div class="child-5"><img src="https://t4.ftcdn.net/jpg/05/47/97/81/360_F_547978128_vqEEUYBr1vcAwfRAqReZXTYtyawpgLcC.jpg" alt=""></div>
+        <div class="child-6"><img src="https://static.sadhguru.org/d/46272/1633199491-1633199490440.jpg" alt=""></div>
+    </div>
+</body>
+</html>
